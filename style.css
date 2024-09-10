@@ -1,0 +1,155 @@
+/* Вспомогательное */
+/* div {
+    border: 1px solid black;
+} */
+
+/* Шрифты */
+html {
+    font-size: 20px;
+    color: #000000;
+}
+p {
+    font-family: "Roboto Slab";
+    font-size: 1rem;
+    font-weight: 350;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.block>p {
+    margin-bottom: 25px;
+}
+.another_font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 760;
+}
+header>div>p.main_name{
+    font-size: 1rem;
+    margin: 10px 0px 0px 10px ;
+}
+button>p.another_font {
+    font-size: 1.8rem;
+    margin: 5px 15px 0px 0px;
+}
+header>button>p.another_font {
+    font-size: 0.6rem;
+    margin-right: 5px;
+}
+.block>button>p.another_font {
+    font-size: 0.8rem;
+    margin: 4px 0px 2px 0px;
+}
+h1 {
+    font-size: 3rem;
+    margin: 0px 0px 10px 0px;
+}
+article.opportunities-page>h1 {
+    margin: 0px 0px 30px 0px;
+}
+h2 {
+    font-size: 1.3rem;
+    margin: 10px 0px 10px 0px;
+}
+
+/* Основное */
+header {
+    margin: 90px 75px 0px 75px;
+}
+header, article.title-page, nav {
+    justify-content: space-between;
+}
+main {
+    margin-bottom: 35px;
+}
+article.title-page { 
+    height: 45vw;
+    width: 36vw;
+    margin-top: 75px;
+    margin-right: 5px;
+}
+article.opportunities-page {
+    margin: 90px 50px 80px 120px;
+}
+button {
+    background-color: #5222D0;
+    color: #FFFFFF;
+    border-color: #5222D0;
+    border-radius: 100px;
+    padding: 19px 30px 21px 30px;
+    align-items: center;
+}
+header>button, .block>button {
+    font-size: 0.65rem;
+    padding: 6px 15px 10px 15px;
+}
+a {
+    text-decoration: none;
+    color: #5222D0;
+}
+article.opportunities-page>nav {
+    width: 37vw;
+    margin-top: 100px;
+}
+article.opportunities-page>nav>a {
+    color: #000000;
+}
+input {
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 20px;
+}
+
+/* Элементы, классы, обёртка, вспомогательное */
+.block, .block>img.block {
+    width: 26vw;
+}
+.box_for_picture {
+    height: 20vw;
+}
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+.color_block {
+    background-color: #ec615b;
+    padding: 25px 15px 30px 15px;
+    color: #FFFFFF;
+}
+
+/* Флексы */
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+}
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+}
+.flex-start {
+    align-self: flex-start;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+
+/* Гриды */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 7vw 36vw 16vw;
+}
+.grid>h1 {
+    grid-column: 1/4;
+}
+
+/* Логотипы, картинки */
+.main_logo {
+    width: 40px;
+    height: 40px;
+}
+.basket-logo {
+    width: 14px;
+}
+.card-logo {
+    width: 42px;
+}
+.title_picture {
+    height: 51vw;
+}
